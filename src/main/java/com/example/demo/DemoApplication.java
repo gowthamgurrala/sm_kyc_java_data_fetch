@@ -10,9 +10,9 @@ import okhttp3.*;
 
 import java.io.IOException;
 import java.lang.reflect.Type;
-import java.util.HashMap;
+
 import java.util.Map;
-import java.util.logging.Logger;
+
 
 
 public class DemoApplication implements RequestHandler<SQSEvent, Void>{
